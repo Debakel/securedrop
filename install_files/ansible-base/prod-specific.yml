@@ -4,10 +4,10 @@ ssh_users: ""
 dns_server: "8.8.8.8"
 
 # TODO Should use ansible to gather this info
-monitor_ip: ""
+monitor_ip: "46.101.126.32"
 monitor_hostname: ""
 app_hostname: ""
-app_ip: ""
+app_ip: "46.101.113.24"
 
 ### Used by the app role ###
 # The securedrop_header_image has to be in the install_files/ansible-base/ or
@@ -34,9 +34,9 @@ securedrop_app_gpg_fingerprint: ""
 #
 # The format of the OSSEC alert GPG fingerprint needs to be all capital letters
 # and zero spaces, e.g. "B89A29DB2128160B8E4B1B4CBADDE0C7FC9F6818"
-ossec_alert_gpg_public_key: ""
-ossec_gpg_fpr: ""
-ossec_alert_email: ""
+ossec_alert_gpg_public_key: "CE701E6B"
+ossec_gpg_fpr: "0BAE438C89C688936846C9F143A8C898CE701E6B"
+ossec_alert_email: "spam1@mrtz.me"
 smtp_relay: ""
 smtp_relay_port: ""
 sasl_username: ""
