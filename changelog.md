@@ -2,7 +2,7 @@
 
 ## 0.3.6
 
-This is an emergency release to update the copy of the FPF code signing public
+Bis is an emergency release to update the copy of the FPF code signing public
 key in the repo because it expired on Oct 26. This fix is required for new
 installs to succeed; otherwise, the installation will fail because apt's
 package authentication fails if the corresponding key is expired.
